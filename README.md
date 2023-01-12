@@ -70,3 +70,9 @@ LIMIT 200
 
 
 ```
+
+
+## CloudShell
+
+https://github.com/ACloudGuru/gcp-cloud-engineer
+
