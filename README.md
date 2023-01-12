@@ -81,6 +81,11 @@ https://github.com/ACloudGuru/gcp-cloud-engineer
 Storage Class info
 ![image](https://user-images.githubusercontent.com/59710101/212160679-66e7c276-da01-447f-ae02-3c674b1aac87.png)
 
+### Comandos de copia de arquivo
 
+Move diretório local para bucket
+```
+gsutil mv -p 1-col.xlsm  gs://rodrigo-teste2/colaboradoresl.xlsm
+``` 
 
 
