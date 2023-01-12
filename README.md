@@ -11,6 +11,7 @@ Now that we are in BigQuery, let's look at the sample dataset we are going to wo
 
 #### Documentos
 https://cloud.google.com/billing/docs/how-to/billing-access
+
 https://support.google.com/a/answer/9807615
 
 ```sql
