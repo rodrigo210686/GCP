@@ -76,16 +76,89 @@ LIMIT 200
 
 https://github.com/ACloudGuru/gcp-cloud-engineer
 
+Verificar configurações de perfil cli
+```sh
+#gcloud config list
+
+[accessibility]
+screen_reader = True
+[component_manager]
+disable_update_check = True
+[compute]
+gce_metadata_read_timeout_sec = 30
+[core]
+account = cloud_user_p_70b606b9@linuxacademygclabs.com
+disable_usage_reporting = True
+project = playground-s-11-54ddeda2
+[metrics]
+environment = devshell
+``` 
+
+
+Move diretório local para bucket
+```sh
+## lista buckets
+gsutil ls
+
+## move arquivos
+gsutil mv -p 1-col.xlsm  gs://rodrigo-teste2/colaboradoresl.xlsm
+
+### Criar bucket
+gsutil mb gs://rodrigo-teste-3
+``` 
+comandos mais usados bucket
+``` sh
+pwd
+ls
+
+gcloud config list
+
+gsutil ls
+gsutil ls gs://storage-lab-console/
+gsutil ls gs://storage-lab-console/**
+
+gsutil mb --help
+
+gsutil mb -l northamerica-northeast1 gs://storage-lab-cli
+gsutil ls
+
+gsutil label get gs://storage-lab-console/
+gsutil label get gs://storage-lab-console/ >bucketlabels.json
+cat bucketlabels.json
+
+gsutil label get gs://storage-lab-cli/
+gsutil label set bucketlabels.json gs://storage-lab-cli/
+gsutil label get gs://storage-lab-cli/
+
+gsutil label ch -l "extralabel:extravalue" gs://storage-lab-cli
+
+gsutil versioning get gs://storage-lab-cli/
+gsutil versioning set on gs://storage-lab-cli/
+gsutil versioning get gs://storage-lab-cli/
+
+gsutil ls gs://storage-lab-cli/
+gsutil cp README-cloudshell.txt gs://storage-lab-cli/
+gsutil ls gs://storage-lab-cli/
+
+gsutil ls gs://storage-lab-cli/
+gsutil ls -a gs://storage-lab-cli/
+gsutil rm gs://storage-lab-cli/README-cloudshell.txt
+gsutil ls gs://storage-lab-cli/
+gsutil ls -a gs://storage-lab-cli/
+
+gsutil cp gs://storage-lab-console/** gs://storage-lab-cli/
+gsutil ls gs://storage-lab-cli/
+gsutil ls -a gs://storage-lab-cli/
+
+gsutil acl ch -u AllUsers:R gs://storage-lab-cli/Selfie.jpg
+```
+
+
 ## Google CLoud Storage GCS
 
 Storage Class info
 ![image](https://user-images.githubusercontent.com/59710101/212160679-66e7c276-da01-447f-ae02-3c674b1aac87.png)
 
-### Comandos de copia de arquivo
 
-Move diretório local para bucket
-```
-gsutil mv -p 1-col.xlsm  gs://rodrigo-teste2/colaboradoresl.xlsm
-``` 
 
 
