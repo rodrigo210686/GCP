@@ -8,6 +8,11 @@ Part of working with billing data is working with data exported to BigQuery. In 
 Once you are in your lab project, we will need to get into the BigQuery web console. From the top left menu, scroll down to Big Data, and select BigQuery.
 
 Now that we are in BigQuery, let's look at the sample dataset we are going to work with. We are going to view all columns in our example table to see what fields are included. From the large Query Editor box, copy and paste the following query, then click the Run button:
+
+#### Documentos
+https://cloud.google.com/billing/docs/how-to/billing-access
+https://support.google.com/a/answer/9807615
+
 ```sql
 SELECT *  
 FROM `cloud-training-prod-bucket.arch_infra.billing_data`
