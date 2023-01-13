@@ -1,4 +1,5 @@
 # Challenge GCE & GCS
+Enviar logs para uma bucket e stackdriver(log explorer)
 
 ![image](https://user-images.githubusercontent.com/59710101/212426029-82d3c438-e8d6-4e96-a179-722b6679a4e7.png)
 
