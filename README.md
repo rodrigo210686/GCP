@@ -157,8 +157,34 @@ gsutil acl ch -u AllUsers:R gs://storage-lab-cli/Selfie.jpg
 ## Google CLoud Storage GCS
 
 Storage Class info
+
 ![image](https://user-images.githubusercontent.com/59710101/212160679-66e7c276-da01-447f-ae02-3c674b1aac87.png)
 
+## GCE Google computer Engine
+
+```sh
+### Cria uma vm
+gcloud compute instances create ziri-vm
+
+## Lista tipos de instancia filtrando uma zona
+gcloud compute machine-types list --filter="NAME:f1-micro AND ZONE~us-west"
+
+### Definindo uma zona e região para subir uma instancia
+gcloud config set compute/zone us-west2-b
+
+gcloud config set compute/region us-west2
+
+### Criando a instancia depois das configurações de região
+
+cloud compute instances create --machine-type=f1-micro ziri-vm
+
+### depois de criar a VM para gerar a chave ssh vc precisa logar nela a partir do Cloud Shell. No primeiro login será criada a chave.
+
+gcloud compute ssh ziri-vm
+
+### Pegar o metadata 
+curl -H "Metadata-Flavor:Google" metadata.google.internal/computeMetadata/v1
 
 
 
+```
