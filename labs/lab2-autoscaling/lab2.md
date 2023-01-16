@@ -2,7 +2,9 @@
 
 ## Documentação
 https://cloud.google.com/compute/docs/instance-templates/
+
 https://cloud.google.com/compute/docs/instance-groups/
+
 https://cloud.google.com/compute/docs/autoscaler/
  
  ## StartUp Script
