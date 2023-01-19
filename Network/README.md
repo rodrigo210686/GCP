@@ -17,3 +17,9 @@ https://cloud.google.com/load-balancing/docs/choosing-load-balancer
 https://cloud.google.com/vpc/docs/vpc#subnet-ranges
 
 https://cloud.google.com/vpc/docs/vpc
+
+
+### ROLES, Service accounts, IAM
+https://cloud.google.com/compute/docs/access/service-accounts
+https://cloud.google.com/iam/docs/creating-custom-roles
+https://cloud.google.com/iam/docs/understanding-custom-roles
