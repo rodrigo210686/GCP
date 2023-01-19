@@ -9,3 +9,5 @@ https://en.wikipedia.org/wiki/Hot-potato_and_cold-potato_routing
 
 ## Load Balancer
 https://cloud.google.com/load-balancing/docs/load-balancing-overview
+
+https://cloud.google.com/load-balancing/docs/choosing-load-balancer
