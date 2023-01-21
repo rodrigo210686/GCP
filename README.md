@@ -187,6 +187,8 @@ gcloud compute ssh ziri-vm
 ### Pegar o metadata 
 curl -H "Metadata-Flavor:Google" metadata.google.internal/computeMetadata/v1
 
+### Criando preemtible(spot) isntances. São instancias mais baratas que desligam após 24h
+gcloud compute instances create t1 t2 t3 --project=planning-and-261-29def703 --zone=us-central1 --zone=us-central1-a --machine-type=e2-micro --preemptible
 
 ```
 
