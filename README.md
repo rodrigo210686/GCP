@@ -241,9 +241,8 @@ kubectl get pods
 Grab the IP address for the service
 kubectl get services hello-server
 
-Update the cluster
-gcloud container clusters update acloud-cluster --zone=us-central1-a
---logging=SYSTEM,WORKLOAD --monitoring=SYSTEM
+Update the cluster enable monitoring
+gcloud container clusters update acloud-cluster --zone=us-central1-a --logging=SYSTEM,WORKLOAD --monitoring=SYSTEM
 
 Resize the cluster
 gcloud container clusters resize acloud-clusters —num-nodes=2 —zone=us-central1-a
