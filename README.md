@@ -245,4 +245,15 @@ Update the cluster
 gcloud container clusters update acloud-cluster --zone=us-central1-a
 --logging=SYSTEM,WORKLOAD --monitoring=SYSTEM
 
+Resize the cluster
+gcloud container clusters resize acloud-clusters —num-nodes=2 —zone=us-central1-a
+
+Implement autoscaling
+gcloud container clusters update cloud-cluster --enable-autoscaling --min-nodes 2 --max-nodes 5 --zone=us-central1-a
+
+Create a node pool
+gcloud container node-pools create cloud-pool --cluster acloud-cluster --zone=us-central1-a
+
+
+
 ```
