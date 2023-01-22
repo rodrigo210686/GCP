@@ -214,3 +214,35 @@ Start the stackdriver service
 check the status
 ``sudo service stackdriver-agent status``
 ```
+
+# GKE 
+
+```sh
+Creating your cluster
+gcloud container clusters create acloud-cluster --num-nodes=3
+--zone=us-central1-a
+
+Authorize to connect to your pods
+gcloud container clusters get-credentials acloud-cluster
+--zone=us-central1-a
+
+deploy an application
+kubectl create deployment hello-server
+--image=us-docker.pkg.dev/google-samples/containers/gke/hello--app
+:1.0
+
+Create a service to expose the deployment
+kubectl expose deployment helo-server --type LoadBalancer --port 80
+--target-port 8080
+
+Check your pods
+kubectl get pods
+
+Grab the IP address for the service
+kubectl get services hello-server
+
+Update the cluster
+gcloud container clusters update acloud-cluster --zone=us-central1-a
+--logging=SYSTEM,WORKLOAD --monitoring=SYSTEM
+
+```
