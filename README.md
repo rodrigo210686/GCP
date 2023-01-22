@@ -192,3 +192,25 @@ gcloud compute instances create t1 t2 t3 --project=planning-and-261-29def703 --z
 
 ```
 
+#### Instalando agentes e chaves RSA
+```sh
+In this lesson we will launch a VM and create a custom key to access it from outside of
+our environment.
+Commands to create a custom key
+`ssh-keygen -t rsa`
+Curl data for the logging agent
+``curl -sSO https://dl.google.com/cloudagents/add-logging-agent-repo.sh``
+install the logging agent
+``sudo bash add-logging-agent-repo.sh --also-install``
+check to see if fluentd is active
+``sudo service google-fluentd status``
+Curl data for the monitoring agent
+``curl -sSO https://dl.google.com/cloudagents/add-monitoring-agent-repo.sh
+``
+Install the monitoring agent
+``sudo bash add-monitoring-agent-repo.sh --also-install``
+Start the stackdriver service
+``sudo service stackdriver-agent start``
+check the status
+``sudo service stackdriver-agent status``
+```
