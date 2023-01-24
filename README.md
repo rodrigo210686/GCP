@@ -1,4 +1,6 @@
 # GCP 
+Exam:
+https://www.examtopics.com/exams/google/associate-cloud-engineer/
 ## Cheat  | Palavras/Serviços chaves
 https://github.com/priyankavergadia/google-cloud-4-words
 
