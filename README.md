@@ -4,6 +4,12 @@ https://www.examtopics.com/exams/google/associate-cloud-engineer/
 ## Cheat  | Palavras/Serviços chaves
 https://github.com/priyankavergadia/google-cloud-4-words
 
+## Organizations
+https://cloud.google.com/resource-manager/docs/creating-managing-folders?_gl=1*ndpozv*_ga*MTg3OTI3MDA2NC4xNjc0NjU0OTQ5*_ga_WH2QY8WWF5*MTY3NDY1NTI4Mi4xLjEuMTY3NDY1ODcyMS4wLjAuMA..&_ga=2.233033886.-1879270064.1674654949
+
+![image](https://user-images.githubusercontent.com/59710101/214619019-f4b6611f-82eb-46d1-b499-251884a8dd4d.png)
+
+
 ## Roles
 
 https://cloud.google.com/iam/docs/understanding-roles?_gl=1*1gaop4n*_ga*MTg3OTI3MDA2NC4xNjc0NjU0OTQ5*_ga_WH2QY8WWF5*MTY3NDY1NTI4Mi4xLjEuMTY3NDY1ODE5Ni4wLjAuMA..&_ga=2.40539170.-1879270064.1674654949
