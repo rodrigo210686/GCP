@@ -12,6 +12,9 @@ https://support.google.com/a/answer/9807615
 
 https://cloud.google.com/billing/docs/how-to/billing-access
 
+# Documentações Computer engine
+https://cloud.google.com/compute/docs/machine-types?hl=pt-br
+
 ## View Sample Billing Data with BigQuery
 Part of working with billing data is working with data exported to BigQuery. In this lab, we are going to view sample billing exports maintained by Google, and conduct queries against a public dataset of billing exports. This will be a fun lab in that we can play around with SQL queries in BigQuery and see what kind of results we can get. Let's get started!
 
