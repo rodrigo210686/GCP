@@ -4,7 +4,10 @@ https://www.examtopics.com/exams/google/associate-cloud-engineer/
 ## Cheat  | Palavras/Serviços chaves
 https://github.com/priyankavergadia/google-cloud-4-words
 
-# Documentações sobre billing
+##Roles
+https://cloud.google.com/iam/docs/understanding-roles?_gl=1*1gaop4n*_ga*MTg3OTI3MDA2NC4xNjc0NjU0OTQ5*_ga_WH2QY8WWF5*MTY3NDY1NTI4Mi4xLjEuMTY3NDY1ODE5Ni4wLjAuMA..&_ga=2.40539170.-1879270064.1674654949
+
+## Documentações sobre billing
 
 https://cloud.google.com/billing/docs/how-to/billing-access
 
