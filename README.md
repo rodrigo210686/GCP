@@ -14,6 +14,11 @@ https://cloud.google.com/resource-manager/docs/creating-managing-folders?_gl=1*n
 
 https://cloud.google.com/iam/docs/understanding-roles?_gl=1*1gaop4n*_ga*MTg3OTI3MDA2NC4xNjc0NjU0OTQ5*_ga_WH2QY8WWF5*MTY3NDY1NTI4Mi4xLjEuMTY3NDY1ODE5Ni4wLjAuMA..&_ga=2.40539170.-1879270064.1674654949
 
+Basic Role
+![image](https://user-images.githubusercontent.com/59710101/215266223-d09cbc30-1c98-4122-b1ab-fc0e1ed049d8.png)
+
+
+
 ## Documentações sobre billing
 
 https://cloud.google.com/billing/docs/how-to/billing-access
