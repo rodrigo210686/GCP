@@ -1,4 +1,4 @@
-Task 3. Create a Cloud Storage bucket using the gsutil command line
+Create a Cloud Storage bucket using the gsutil command line
 All Cloud Storage bucket names must be globally unique. To ensure that your bucket name is unique, these instructions will guide you to give your bucket the same name as your Cloud Platform project ID, which is also globally unique.
 
 Cloud Storage buckets can be associated with either a region or a multi-region location: US, EU, or ASIA. In this activity, you associate your bucket with the multi-region closest to the region and zone that Qwiklabs or your instructor assigned you to.
