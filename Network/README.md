@@ -27,3 +27,5 @@ https://cloud.google.com/iam/docs/understanding-custom-roles
 ### Pricing
 
 ![image](https://user-images.githubusercontent.com/59710101/215999671-64e7f891-bdf8-46c7-aa34-c78e2f6328fd.png)
+
+![image](https://user-images.githubusercontent.com/59710101/216000253-8df039ca-7ee6-47c2-939e-08891048ead5.png)
