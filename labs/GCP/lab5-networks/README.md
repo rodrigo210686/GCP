@@ -11,7 +11,10 @@ ou
 ```sh
 gcloud compute networks create privatenet --subnet-mode=custom
 
+## Criando subnets
 gcloud compute networks subnets create privatesubnet-us --network=privatenet --region=us-west3 --range=172.16.0.0/24
+
+gcloud compute networks subnets create privatesubnet-eu --network=privatenet --region=europe-west1 --range=172.20.0.0/20
 ```
 
 Listando
