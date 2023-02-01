@@ -23,3 +23,7 @@ https://cloud.google.com/vpc/docs/vpc
 https://cloud.google.com/compute/docs/access/service-accounts
 https://cloud.google.com/iam/docs/creating-custom-roles
 https://cloud.google.com/iam/docs/understanding-custom-roles
+
+### Pricing
+
+![image](https://user-images.githubusercontent.com/59710101/215999671-64e7f891-bdf8-46c7-aa34-c78e2f6328fd.png)
