@@ -29,3 +29,13 @@ https://cloud.google.com/iam/docs/understanding-custom-roles
 ![image](https://user-images.githubusercontent.com/59710101/215999671-64e7f891-bdf8-46c7-aa34-c78e2f6328fd.png)
 
 ![image](https://user-images.githubusercontent.com/59710101/216000253-8df039ca-7ee6-47c2-939e-08891048ead5.png)
+
+
+### Cloud Nat
+
+![image](https://user-images.githubusercontent.com/59710101/216009716-a221f129-0ad3-4fd2-a69e-0ef0b68909db.png)
+
+### Private google access 
+
+![image](https://user-images.githubusercontent.com/59710101/216010180-92882d74-78ea-405c-8184-ab993f4bdfdb.png)
+
