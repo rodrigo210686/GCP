@@ -8,3 +8,6 @@
 IAP info para NAT : https://cloud.google.com/iap/docs/using-tcp-forwarding?hl=pt-br
 
 IP de saída: 35.235.240.0/20
+
+![image](https://user-images.githubusercontent.com/59710101/216017465-00590e40-9bd7-4194-9298-973464cdb4a9.png)
+
