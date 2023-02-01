@@ -22,3 +22,9 @@ Listando
 gcloud compute networks list
 
 ```
+Criando regras de firewall
+```sh
+
+gcloud compute firewall-rules create privatenet-allow-icmp-ssh-rdp --direction=INGRESS --priority=1000 --network=privatenet --action=ALLOW --rules=icmp,tcp:22,tcp:3389 --source-ranges=0.0.0.0/0
+
+```
