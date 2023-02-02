@@ -10,3 +10,5 @@ https://cloud.google.com/storage/docs/gcs-fuse?hl=pt-br
 Acho que a resposta correta é A
 
 
+
+
