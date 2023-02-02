@@ -9,6 +9,9 @@ https://cloud.google.com/storage/docs/gcs-fuse?hl=pt-br
 
 Acho que a resposta correta é A
 
+3 - Questão 41 página 20. 
+
+Acho que a resposta correta é C,F
 
 
 
