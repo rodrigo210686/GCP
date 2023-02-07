@@ -17,5 +17,6 @@ Acho que a resposta correta é C,F
 #### Estudei até 121 pág 63. 
 Iniciar de trás para frente no PDF
 
+Parei em 238
 
 
