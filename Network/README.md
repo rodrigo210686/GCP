@@ -43,8 +43,8 @@ https://cloud.google.com/iam/docs/understanding-custom-roles
 
 ![image](https://user-images.githubusercontent.com/59710101/217641634-f03a7907-6d5c-479d-bf16-6244990f1c8c.png)
 
-```sh
->> Let's move our attention from hybrid connectivity to shared VPC networks. In the simplest cloud environment, a single project might have one VPC network spanning many regions with VM instances
+```txt
+Let's move our attention from hybrid connectivity to shared VPC networks. In the simplest cloud environment, a single project might have one VPC network spanning many regions with VM instances
 00:13
 hosting very large and complicated applications. However, many organizations commonly deploy multiple isolated projects with multiple VPC networks and subnets. In this lesson, we are going to cover two configurations
 00:30
