@@ -5,3 +5,5 @@ Cloud Armor IP allowlist/denylist enable you to restrict or allow access to your
 
 In this lab, you configure an HTTP Load Balancer with global backends, as shown in the diagram below. Then, you'll stress test the Load Balancer and add a Cloud Armor rate limiting policy to restrict based on IP.
 
+
+![image](https://user-images.githubusercontent.com/59710101/217529107-1fd5f778-c0b1-4bfb-8ba4-7968310b136e.png)
