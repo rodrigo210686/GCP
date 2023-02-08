@@ -8,3 +8,6 @@ https://partner.cloudskillsboost.google/focuses/42470?parent=catalog
 ### Defending Edge Cache with Cloud Armor
 
 https://partner.cloudskillsboost.google/focuses/57170?parent=catalog
+
+### Cloud Armor Preconfigured WAF Rules OWASP
+https://partner.cloudskillsboost.google/focuses/57169?parent=catalog
