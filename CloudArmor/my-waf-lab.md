@@ -37,8 +37,17 @@ gcloud compute firewall-rules create allow-health-check \
 ## Set up the test application
 Create the test application, in this case, the OWASP Juice Shop web server. When you create the compute instance, you use a container image to ensure the server has the appropriate services. You deploy this server in the us-central1-a and has a network tag that allows health checks.
 
-```sh
+Create the OWASP Juice Shop application
+Use the open source well-known OWASP Juice Shop application to serve as the vulnerable application. You can also use this application to do OWASP security challenges through the OWASP website.
 
+```sh
+gcloud compute instances create-with-container owasp-juice-shop-app --container-image bkimminich/juice-shop \
+     --network my-lab-waf \
+     --subnet my-lab-waf-subnet \
+     --private-network-ip=10.0.0.3 \
+     --machine-type n1-standard-2 \
+     --zone us-central1-a \
+     --tags allow-healthcheck
 ```` 
 
 ```sh
