@@ -5,3 +5,6 @@ https://cloud.google.com/storage/docs/storage-classes?hl=pt-br&_gl=1*1gcgjym*_ga
 
 #### Duração mínima de armazenamento
 https://cloud.google.com/storage/pricing?hl=pt-br#south-america
+
+É possível excluir, substituir ou mover um objeto antes do período de armazenamento mínimo, mas, no momento em que ele for excluído, substituído ou movido, você receberá uma cobrança como se o objeto estivesse armazenado pela duração mínima. Consulte o exemplo de exclusão antecipada para saber como as cobranças se aplicam.
+
