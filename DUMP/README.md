@@ -14,9 +14,6 @@ Acho que a resposta correta é A
 Acho que a resposta correta é C,F
 
 
-#### Estudei até 121 pág 63. 
-Iniciar de trás para frente no PDF
-
-Parei em 238
-
+4 -  Questão 125 página 65. 
+Acho que a resposta é A
 
