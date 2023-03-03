@@ -16,6 +16,6 @@ gcloud compute os-login ssh-keys add \
     --key-file=/home/hypercloud_rodrigo/mykey \
     --project=landingzone-prod-01 \
     --ttl=90d
-    
-    ``` 
-    Pegue a chave gerada e inclua na VM
+``` 
+
+Pegue a chave gerada e inclua na VM. O usuário será criado automaticamente
