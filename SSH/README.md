@@ -17,5 +17,5 @@ gcloud compute os-login ssh-keys add \
     --project=landingzone-prod-01 \
     --ttl=90d
     
-    ```
+    ``` 
     Pegue a chave gerada e inclua na VM
