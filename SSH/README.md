@@ -1,4 +1,5 @@
 ## Criando a chave em um servidor qualquer
+https://cloud.google.com/compute/docs/connect/create-ssh-keys
 
 ssh-keygen -t rsa -f ~/.ssh/KEY_FILENAME -C USERNAME -b 2048
 
