@@ -5,7 +5,7 @@
 Cloud shell já possui terraform instalado
 
 
-## Creating netwwork
+## Creating netwwork - mynetwork.tf
 ```sh
 # Create the mynetwork network
 resource "google_compute_network" "mynetwork" {
@@ -28,7 +28,7 @@ allow {
 source_ranges = ["0.0.0.0/0"]
 }
 ```
-## Creating instances
+## Creating instances - main.tf
 
 ```sh
 resource "google_compute_instance" "vm_instance" {
