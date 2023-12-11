@@ -5,5 +5,8 @@
 
 ![image](https://github.com/rodrigo210686/GCP/assets/59710101/065657c9-c1f6-439f-9e70-a54969ddf0d4)
 
-
 ![image](https://github.com/rodrigo210686/GCP/assets/59710101/ce538585-b389-46d9-bbe3-04488825af5e)
+
+![image](https://github.com/rodrigo210686/GCP/assets/59710101/325c3117-8c48-42c5-81cf-df78cbcba8c5)
+
+![image](https://github.com/rodrigo210686/GCP/assets/59710101/3faff93d-7c9e-45df-85be-36c5e8d5ce82)
